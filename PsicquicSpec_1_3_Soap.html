@@ -1,0 +1,1265 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>SOAP · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.1.1">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="PsicquicSpec_1_3_Rest.html" />
+    
+    
+    <link rel="prev" href="PsicquicSpecification.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="PsicquicSpecification.html">
+            
+                <a href="PsicquicSpecification.html">
+            
+                    
+                    Specification
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.1.1.1" data-path="PsicquicSpec_1_3_Soap.html">
+            
+                <a href="PsicquicSpec_1_3_Soap.html">
+            
+                    
+                    SOAP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.2" data-path="PsicquicSpec_1_3_Rest.html">
+            
+                <a href="PsicquicSpec_1_3_Rest.html">
+            
+                    
+                    REST
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="Registry.html">
+            
+                <a href="Registry.html">
+            
+                    
+                    Registry
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.1" data-path="PsicquicServiceTags.html">
+            
+                <a href="PsicquicServiceTags.html">
+            
+                    
+                    Registry Service Tags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2" data-path="RegistryJavaClient.html">
+            
+                <a href="RegistryJavaClient.html">
+            
+                    
+                    Java client
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="MiqlDefinition.html">
+            
+                <a href="MiqlDefinition.html">
+            
+                    
+                    Usage MIQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="MiqlReference.html">
+            
+                <a href="MiqlReference.html">
+            
+                    
+                    MIQL Reference 2.5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="MiqlReference27.html">
+            
+                <a href="MiqlReference27.html">
+            
+                    
+                    MIQL Extension 2.7
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Clients.html">
+            
+                <a href="Clients.html">
+            
+                    
+                    Clients
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <a target="_blank" href="http://www.bioconductor.org/packages/release/bioc/html/PSICQUIC.html">
+            
+                    
+                    R Bioconductor package
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="JavaClient.html">
+            
+                <a href="JavaClient.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="PerlCodeSamples.html">
+            
+                <a href="PerlCodeSamples.html">
+            
+                    
+                    Perl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="PythonCodeSamples.html">
+            
+                <a href="PythonCodeSamples.html">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="CytoscapeClient.html">
+            
+                <a href="CytoscapeClient.html">
+            
+                    
+                    Cytoscape
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="formats.html">
+            
+                <a href="formats.html">
+            
+                    
+                    Formats
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="psi-mitab.html">
+            
+                <a href="psi-mitab.html">
+            
+                    
+                    PSI MITAB
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="MITAB25Format.html">
+            
+                <a href="MITAB25Format.html">
+            
+                    
+                    MITAB 2.5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="MITAB26Format.html">
+            
+                <a href="MITAB26Format.html">
+            
+                    
+                    MITAB 2.6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="MITAB27Format.html">
+            
+                <a href="MITAB27Format.html">
+            
+                    
+                    MITAB 2.7
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="psi-mi-xml.html">
+            
+                <a href="psi-mi-xml.html">
+            
+                    
+                    PSI-MI XML
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" >
+            
+                <a target="_blank" href="http://psidev.sourceforge.net/molecular_interactions/rel25/doc/">
+            
+                    
+                    Schema documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" >
+            
+                <a target="_blank" href="http://psidev.cvs.sourceforge.net/viewvc/psidev/psi/mi/rel25/src/MIF254.xsd">
+            
+                    
+                    MIF254.xsd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" >
+            
+                <a target="_blank" href="http://code.google.com/p/psimi/wiki/PsimiXMLSpecifications">
+            
+                    
+                    XML Specifications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" >
+            
+                <a target="_blank" href="http://code.google.com/p/psimi/wiki/PsimiExamples">
+            
+                    
+                    Java Examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="service-providers.html">
+            
+                <a href="service-providers.html">
+            
+                    
+                    Service providers
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="HowToInstallPsicquicSolr.html">
+            
+                <a href="HowToInstallPsicquicSolr.html">
+            
+                    
+                    How to install PSICQUIC Solr (recommened)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1.1" data-path="HowToInstallPsicquicAndSolrJetty.html">
+            
+                <a href="HowToInstallPsicquicAndSolrJetty.html">
+            
+                    
+                    Single jetty server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.2" data-path="HowToInstallPsicquicSolrDifferentServers.html">
+            
+                <a href="HowToInstallPsicquicSolrDifferentServers.html">
+            
+                    
+                    Using a solr server independent from the PSICQUIC server
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="HowToInstallPsicquicLucene.html">
+            
+                <a href="HowToInstallPsicquicLucene.html">
+            
+                    
+                    How to install PSICQUIC using LUCENE
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="HowToInstall.html">
+            
+                <a href="HowToInstall.html">
+            
+                    
+                    Using LUCENE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="DataDistributionBestPractices.html">
+            
+                <a href="DataDistributionBestPractices.html">
+            
+                    
+                    Data Distribution Best Practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="DataEnricher.html">
+            
+                <a href="DataEnricher.html">
+            
+                    
+                    Data Enricher
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="Faq.html">
+            
+                <a href="Faq.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="ReleaseNotes.html">
+            
+                <a href="ReleaseNotes.html">
+            
+                    
+                    Release notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="WhoUsesPsicquic.html">
+            
+                <a href="WhoUsesPsicquic.html">
+            
+                    
+                    Who uses PSICQUIC?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="project-management.html">
+            
+                <a href="project-management.html">
+            
+                    
+                    Project Management
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="PreparingARelease.html">
+            
+                <a href="PreparingARelease.html">
+            
+                    
+                    How to release the project
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >SOAP</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="version-13">Version 1.3</h1>
+<p>The documentation in this page corresponds to the version 1.3 of the PSICQUIC specification.</p>
+<p>Using SOAP is the traditional way to access a web service. The PSICQUIC specification defines a <a href="http://code.google.com/p/psicquic/source/browse/trunk/psicquic-solr-ws/src/main/wsdl/psicquic11.wsdl" target="_blank">standard WSDL</a> that all the implementations must comply with. This file contains the list of web service methods available for users.</p>
+<p>The SOAP URL for the different interaction databases can be found in the <a href="http://www.ebi.ac.uk/Tools/webservices/psicquic/registry/registry?action=STATUS" target="_blank">Registry</a>. To fetch the WSDL just append <strong><code>?wsdl</code></strong> to the SOAP URL (<a href="http://www.ebi.ac.uk/Tools/webservices/psicquic/intact/webservices/psicquic?wsdl" target="_blank">example</a>).</p>
+<p><strong>Important note</strong>: the maximum number of interactions in XML format that can be returned by a SOAP request is <strong>500</strong>. If you want to retrieve more results, do an iteration of requests incrementing the <em>firstResult</em> parameter by 500 until you reach the total number of results.</p>
+<h2 id="differences-from-previous-versions">Differences from previous versions</h2>
+<h3 id="from-version-12">From version 1.2</h3>
+<ul>
+<li>The WSDL file has not been updated so the SOAP methods are the same as for 1.2 and 1.1.</li>
+<li>psi-mi/tab26 and psi-mi/tab27 are now accepted. The ResultSet returned by the SOAP service will contain the MITAB (2.5, 2.6 or 2.7) as a String (same as for the previous versions explaining why the WSDL file has not been updated since version 1.1)</li>
+<li>When returning MITAB (2.5, 2.6 or 2.7), there is no limit in the number of binary interactions returned by the SOAP service as it is doing some pagination internally. However, the maximum number of interaction to be returned in XML is 500. If the user ask for more than 500 results in XML, the SOAP service will return a 400 HTTP error code.</li>
+</ul>
+<h3 id="from-version-11">From version 1.1</h3>
+<p>None. As the REST implementation has changed, we also updated the SOAP version. The WSDL file is the same as for version 1.1</p>
+<h3 id="from-version-10">From version 1.0</h3>
+<p>Methods to retrieve properties from the service have been added. These properties are used by the provider to define characteristics of the service.</p>
+<h2 id="method-summary">Method Summary</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Method Name</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong><a href="#Method:_getByQuery.md">getByQuery</a></strong></td>
+<td style="text-align:left">Retrieve data using a <a href="MiqlDefinition.html">MIQL query</a></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong><a href="#Method:_getByInteractor.md">getByInteractor</a></strong></td>
+<td style="text-align:left">Retrieve data using a specific participant identifier</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong><a href="#Method:_getByInteractorList.md">getByInteractorList</a></strong></td>
+<td style="text-align:left">Retrieve data using a list of participant identifiers. This method can be used to retrieve interactions where the two or more participants passed as arguments are found. To do so, set the operand to <em>AND</em>.</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong><a href="#Method:_getByInteraction.md">getByInteraction</a></strong></td>
+<td style="text-align:left">Retrieve a specific interaction using its identifier</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong><a href="#Method:_getByInteractionList.md">getByInteractionList</a></strong></td>
+<td style="text-align:left">Retrieve a list of interactions, using the identifiers</td>
+</tr>
+</tbody>
+</table>
+<p>Other methods to retrieve information about the service itself (metadata) are also available:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Method Name</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>getSupportedReturnTypes</strong></td>
+<td style="text-align:left">Returns the list of possible formats for the retrieved data</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>getSupportedDbAcs</strong></td>
+<td style="text-align:left">Supported database accessions</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>getVersion</strong></td>
+<td style="text-align:left">Gets the version of the service</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>getProperties</strong></td>
+<td style="text-align:left">Retrieve a list of the property objects defined in a service by the provider. Each property object have a key and a value</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>getProperty</strong></td>
+<td style="text-align:left">Retrieve a property from the service</td>
+</tr>
+</tbody>
+</table>
+<h2 id="methods">Methods</h2>
+<p>This section explains the parameters that can be used in the above methods.</p>
+<h3 id="method-getbyquery">Method: getByQuery</h3>
+<p><strong>Description</strong>: Retrieves data using a <a href="MiqlReference.html">MIQL query</a>. This is the more general method an can be used to perform the most flexible queries by using MIQL. The other methods of the web service are just convenience methods that just reduce the scope of the query, hence what the other methods do can be done through this one.</p>
+<p><strong>Input parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Required</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">query</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">The <a href="MiqlReference.html">MIQL query</a> to use</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">infoRequest</td>
+<td style="text-align:left"><a href="#infoRequest.md">infoRequest</a></td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">Used to describe the format our to define the pagination</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Output parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">queryResponse</td>
+<td style="text-align:left"><a href="#queryResponse.md">queryResponse</a></td>
+<td style="text-align:left">Complex object containing the resulting data and some metadata about the results</td>
+</tr>
+</tbody>
+</table>
+<h3 id="method-getbyinteractor">Method: getByInteractor</h3>
+<p><strong>Description</strong>: Retrieves data using a specific participant identifier.</p>
+<p><strong>Input parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Required</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">dbRef</td>
+<td style="text-align:left"><a href="#dbRef.md">dbRef</a></td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">The identifier to search for</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">infoRequest</td>
+<td style="text-align:left"><a href="#infoRequest.md">infoRequest</a></td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">Used to describe the format our to define the pagination</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Output parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">queryResponse</td>
+<td style="text-align:left"><a href="#queryResponse.md">queryResponse</a></td>
+<td style="text-align:left">Complex object containing the resulting data and some metadata about the results</td>
+</tr>
+</tbody>
+</table>
+<h3 id="method-getbyinteractorlist">Method: getByInteractorList</h3>
+<p><strong>Description</strong>: Retrieve data using a list of participant identifiers. This method can be used to retrieve interactions where the two or more participants passed as arguments are found. To do so, set the operand to <em>AND</em>.</p>
+<p><strong>Input parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Required</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">dbRefs</td>
+<td style="text-align:left">List of <a href="#dbRef.md">dbRef</a></td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">The identifiers to search for</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">infoRequest</td>
+<td style="text-align:left"><a href="#infoRequest.md">infoRequest</a></td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">Used to describe the format our to define the pagination</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Operand</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">No</td>
+<td style="text-align:left">When multiple identifiers are provided two options are possible, dependening if we want to (a) find the interaction where ALL the provided identifiers are found or (b) just get a list of interactions where ANY of the identifiers is found. For (a) the value of <em>operand</em> is &apos;<strong>AND</strong>&apos;, whereas for (b) is &apos;<strong>OR</strong>&apos; (default)</td>
+<td style="text-align:left">AND, <br>OR</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Output parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">queryResponse</td>
+<td style="text-align:left"><a href="#queryResponse.md">queryResponse</a></td>
+<td style="text-align:left">Complex object containing the resulting data and some metadata about the results</td>
+</tr>
+</tbody>
+</table>
+<h3 id="method-getbyinteraction">Method: getByInteraction</h3>
+<p><strong>Description</strong>: Retrieves a specific interaction using its identifier. This method is identical to the <em>getByInteractor</em>, but requiring interaction accessions instead.</p>
+<p><strong>Input parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Required</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">dbRef</td>
+<td style="text-align:left"><a href="#dbRef.md">dbRef</a></td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">The identifier to search for</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">infoRequest</td>
+<td style="text-align:left"><a href="#infoRequest.md">infoRequest</a></td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">Used to describe the format our to define the pagination</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Output parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">queryResponse</td>
+<td style="text-align:left"><a href="#queryResponse.md">queryResponse</a></td>
+<td style="text-align:left">Complex object containing the resulting data and some metadata about the results</td>
+</tr>
+</tbody>
+</table>
+<h3 id="method-getbyinteractionlist">Method: getByInteractionList</h3>
+<p><strong>Description</strong>: Retrieves a list of interactions, using the identifiers.</p>
+<p><strong>Input parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Required</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">dbRefs</td>
+<td style="text-align:left">List of <a href="#dbRef.md">dbRef</a></td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">The identifiers to search for</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">infoRequest</td>
+<td style="text-align:left"><a href="#infoRequest.md">infoRequest</a></td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">Used to describe the format our to define the pagination</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Output parameters</strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">queryResponse</td>
+<td style="text-align:left"><a href="#queryResponse.md">queryResponse</a></td>
+<td style="text-align:left">Complex object containing the resulting data and some metadata about the results</td>
+</tr>
+</tbody>
+</table>
+<h2 id="complex-objects">Complex Objects</h2>
+<h3 id="dbref">dbRef</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Required</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">id</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">Yes</td>
+<td style="text-align:left">Identifier to use</td>
+<td style="text-align:left">brca2<br>P12345</td>
+</tr>
+<tr>
+<td style="text-align:left">dbAc</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">No</td>
+<td style="text-align:left">Accession number of the database. Use it to avoid ambiguity if two databases contain the same parameter. Rarely used and not supported throughout</td>
+</tr>
+</tbody>
+</table>
+<h3 id="inforequest">infoRequest</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Required</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+<th style="text-align:left"><strong>Default</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">resultType</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">No</td>
+<td style="text-align:left">Format of the returned results. Possible options are: <br> &apos;<strong>psi-mi/tab25</strong>&apos; (default): MITAB format. <br> &apos;<strong>psi-mi/tab26</strong>&apos;: MITAB 26 format (not all services provide this format). <br> &apos;<strong>psi-mi/tab27</strong>&apos;: MITAB 27 format (not all services provide this format).  <br> &apos;<strong>psi-mi/xml25</strong>&apos;: PSI-MI XML 2.5.4 format.<br>&apos;<strong>count</strong>&apos;: just contains the result counts.</td>
+<td style="text-align:left">psi-mi/tab25</td>
+</tr>
+<tr>
+<td style="text-align:left">firstResult</td>
+<td style="text-align:left">Integer</td>
+<td style="text-align:left">No</td>
+<td style="text-align:left">Index for the first returned value (offset)</td>
+<td style="text-align:left">0</td>
+</tr>
+<tr>
+<td style="text-align:left">blockSize</td>
+<td style="text-align:left">Integer</td>
+<td style="text-align:left">No</td>
+<td style="text-align:left">Number of results to be returned. Maximum is <strong>200</strong>, so higher values will be ignored.</td>
+<td style="text-align:left">0</td>
+</tr>
+</tbody>
+</table>
+<p>When doing queries, the results must be paginated to avoid memory problems. All methods accept the parameters firstResult and blockSize, which are used to define the starting interaction and the number of interactions to be retrieved. Use them to retrieve your data in batches.</p>
+<h3 id="queryresponse">queryResponse</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">resultSet</td>
+<td style="text-align:left"><a href="#resultSet.md">resultSet</a></td>
+<td style="text-align:left">Contains the results of the query</td>
+</tr>
+<tr>
+<td style="text-align:left">resultInfo</td>
+<td style="text-align:left"><a href="#resultInfo.md">resultInfo</a></td>
+<td style="text-align:left">Information about the query, such as the total number of results found</td>
+</tr>
+</tbody>
+</table>
+<h3 id="resultset">resultSet</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">mitab</td>
+<td style="text-align:left">String</td>
+<td style="text-align:left">When the <em>psi-mi/tab25</em> format is used, this elements contains the resulting data as a String in MITAB format. Lines are separated by a carriage return.</td>
+</tr>
+<tr>
+<td style="text-align:left">entrySet</td>
+<td style="text-align:left">PSI-MI XML 2.5</td>
+<td style="text-align:left">When the <em>psi-mi/xml25</em> format is used, the XML file with the results is embedded in the response</td>
+</tr>
+</tbody>
+</table>
+<h3 id="resultinfo">resultInfo</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Name</strong></th>
+<th style="text-align:left"><strong>Type</strong></th>
+<th style="text-align:left"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">firstResult</td>
+<td style="text-align:left">Integer</td>
+<td style="text-align:left">The offset used when querying the service</td>
+</tr>
+<tr>
+<td style="text-align:left">blockSize</td>
+<td style="text-align:left">Integer</td>
+<td style="text-align:left">The number of results returned. If the service returns a different number of results than those asked for (e.g. the number provided was higher than the server maximum), this value shows how much data was returned by the service</td>
+</tr>
+<tr>
+<td style="text-align:left">totalResults</td>
+<td style="text-align:left">Integer</td>
+<td style="text-align:left">The total number of interaction evidences found, irrespectively of the firstResult and blockSize.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="querying-the-service">Querying the service</h2>
+<p>To query the SOAP service specific libraries may be needed by your programs. There is a <a href="JavaClient.html">JAVA client</a> already implemented, but if you are not using JAVA you may need to create the service yourself (and if it is generic, contributing it to the project would be great!).</p>
+<p>When doing queries, the results in XML must be <em>paginated</em> to avoid memory problems. All methods accept the parameters <em>firstResult</em> and <em>maxResults</em>, which are used to define the starting interaction and the number of interactions to be retrieved. Use them to retrieve your data in batches.</p>
+<p>The default return types are:</p>
+<ul>
+<li><strong>psi-mi/tab25</strong>: returns PSI-MI TAB 2.5 format.</li>
+<li><strong>psi-mi/tab26</strong>: returns PSI-MI TAB 2.6 format. (not all services provide this format)</li>
+<li><strong>psi-mi/tab27</strong>: returns PSI-MI TAB 2.7 format. (not all services provide this format)</li>
+<li><strong>psi-mi/xml25</strong>: returns PSI-MI XML 2.5.4 format.</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="PsicquicSpecification.html" class="navigation navigation-prev " aria-label="Previous page: Specification">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="PsicquicSpec_1_3_Rest.html" class="navigation navigation-next " aria-label="Next page: REST">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"SOAP","level":"1.1.1.1","depth":3,"next":{"title":"REST","level":"1.1.1.2","depth":3,"path":"PsicquicSpec_1_3_Rest.md","ref":"PsicquicSpec_1_3_Rest.md","articles":[]},"previous":{"title":"Specification","level":"1.1.1","depth":2,"path":"PsicquicSpecification.md","ref":"PsicquicSpecification.md","articles":[{"title":"SOAP","level":"1.1.1.1","depth":3,"path":"PsicquicSpec_1_3_Soap.md","ref":"PsicquicSpec_1_3_Soap.md","articles":[]},{"title":"REST","level":"1.1.1.2","depth":3,"path":"PsicquicSpec_1_3_Rest.md","ref":"PsicquicSpec_1_3_Rest.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"3.1.1","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"PsicquicSpec_1_3_Soap.md","mtime":"2016-08-02T15:21:30.000Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-08-15T17:09:41.315Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

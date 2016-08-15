@@ -1,0 +1,1346 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Data Distribution Best Practices · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.1.1">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="DataEnricher.html" />
+    
+    
+    <link rel="prev" href="HowToInstall.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="PsicquicSpecification.html">
+            
+                <a href="PsicquicSpecification.html">
+            
+                    
+                    Specification
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.1" data-path="PsicquicSpec_1_3_Soap.html">
+            
+                <a href="PsicquicSpec_1_3_Soap.html">
+            
+                    
+                    SOAP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.2" data-path="PsicquicSpec_1_3_Rest.html">
+            
+                <a href="PsicquicSpec_1_3_Rest.html">
+            
+                    
+                    REST
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="Registry.html">
+            
+                <a href="Registry.html">
+            
+                    
+                    Registry
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.1" data-path="PsicquicServiceTags.html">
+            
+                <a href="PsicquicServiceTags.html">
+            
+                    
+                    Registry Service Tags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2" data-path="RegistryJavaClient.html">
+            
+                <a href="RegistryJavaClient.html">
+            
+                    
+                    Java client
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="MiqlDefinition.html">
+            
+                <a href="MiqlDefinition.html">
+            
+                    
+                    Usage MIQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="MiqlReference.html">
+            
+                <a href="MiqlReference.html">
+            
+                    
+                    MIQL Reference 2.5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="MiqlReference27.html">
+            
+                <a href="MiqlReference27.html">
+            
+                    
+                    MIQL Extension 2.7
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Clients.html">
+            
+                <a href="Clients.html">
+            
+                    
+                    Clients
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <a target="_blank" href="http://www.bioconductor.org/packages/release/bioc/html/PSICQUIC.html">
+            
+                    
+                    R Bioconductor package
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="JavaClient.html">
+            
+                <a href="JavaClient.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="PerlCodeSamples.html">
+            
+                <a href="PerlCodeSamples.html">
+            
+                    
+                    Perl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="PythonCodeSamples.html">
+            
+                <a href="PythonCodeSamples.html">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="CytoscapeClient.html">
+            
+                <a href="CytoscapeClient.html">
+            
+                    
+                    Cytoscape
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="formats.html">
+            
+                <a href="formats.html">
+            
+                    
+                    Formats
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="psi-mitab.html">
+            
+                <a href="psi-mitab.html">
+            
+                    
+                    PSI MITAB
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="MITAB25Format.html">
+            
+                <a href="MITAB25Format.html">
+            
+                    
+                    MITAB 2.5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="MITAB26Format.html">
+            
+                <a href="MITAB26Format.html">
+            
+                    
+                    MITAB 2.6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="MITAB27Format.html">
+            
+                <a href="MITAB27Format.html">
+            
+                    
+                    MITAB 2.7
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="psi-mi-xml.html">
+            
+                <a href="psi-mi-xml.html">
+            
+                    
+                    PSI-MI XML
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" >
+            
+                <a target="_blank" href="http://psidev.sourceforge.net/molecular_interactions/rel25/doc/">
+            
+                    
+                    Schema documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" >
+            
+                <a target="_blank" href="http://psidev.cvs.sourceforge.net/viewvc/psidev/psi/mi/rel25/src/MIF254.xsd">
+            
+                    
+                    MIF254.xsd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" >
+            
+                <a target="_blank" href="http://code.google.com/p/psimi/wiki/PsimiXMLSpecifications">
+            
+                    
+                    XML Specifications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" >
+            
+                <a target="_blank" href="http://code.google.com/p/psimi/wiki/PsimiExamples">
+            
+                    
+                    Java Examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="service-providers.html">
+            
+                <a href="service-providers.html">
+            
+                    
+                    Service providers
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="HowToInstallPsicquicSolr.html">
+            
+                <a href="HowToInstallPsicquicSolr.html">
+            
+                    
+                    How to install PSICQUIC Solr (recommened)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1.1" data-path="HowToInstallPsicquicAndSolrJetty.html">
+            
+                <a href="HowToInstallPsicquicAndSolrJetty.html">
+            
+                    
+                    Single jetty server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.2" data-path="HowToInstallPsicquicSolrDifferentServers.html">
+            
+                <a href="HowToInstallPsicquicSolrDifferentServers.html">
+            
+                    
+                    Using a solr server independent from the PSICQUIC server
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="HowToInstallPsicquicLucene.html">
+            
+                <a href="HowToInstallPsicquicLucene.html">
+            
+                    
+                    How to install PSICQUIC using LUCENE
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="HowToInstall.html">
+            
+                <a href="HowToInstall.html">
+            
+                    
+                    Using LUCENE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.3" data-path="DataDistributionBestPractices.html">
+            
+                <a href="DataDistributionBestPractices.html">
+            
+                    
+                    Data Distribution Best Practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="DataEnricher.html">
+            
+                <a href="DataEnricher.html">
+            
+                    
+                    Data Enricher
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="Faq.html">
+            
+                <a href="Faq.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="ReleaseNotes.html">
+            
+                <a href="ReleaseNotes.html">
+            
+                    
+                    Release notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="WhoUsesPsicquic.html">
+            
+                <a href="WhoUsesPsicquic.html">
+            
+                    
+                    Who uses PSICQUIC?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="project-management.html">
+            
+                <a href="project-management.html">
+            
+                    
+                    Project Management
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="PreparingARelease.html">
+            
+                <a href="PreparingARelease.html">
+            
+                    
+                    How to release the project
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Data Distribution Best Practices</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="purpose">Purpose</h2>
+<p>This document focuses on several aspects of the <a href="http://code.google.com/p/psicquic/wiki/MITAB27Format" target="_blank">MITAB27 data representation</a> in the context of data distribution via PSICQUIC services. As MITAB 2.7 is backward compatible with MITAB 2.5 and MITAB 2.6, the best practices also apply to these formats except for the new columns. The implementation of these best practices in the data served by a PSICQUIC services should improve users searches, data consistency and visualization as well as clustering of this data with other PSICQUIC services.</p>
+<h2 id="best-practices">Best Practices</h2>
+<h3 id="a-describing-an-interacting-molecule">A. Describing an Interacting Molecule</h3>
+<p>Typically, an interacting molecule is described using up to 12 columns of the <a href="http://code.google.com/p/psicquic/wiki/MITAB27Format" target="_blank">MITAB format</a>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Column name</strong></th>
+<th style="text-align:left"><strong>Columns for Interactor A</strong></th>
+<th style="text-align:left"><strong>Columns for Interactor B</strong></th>
+<th style="text-align:left"><strong>Definition</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Unique identifier</td>
+<td style="text-align:left">1</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left">represented as databaseName:ac, where databaseName is the name of the corresponding database as defined in the <a href="http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=MI&amp;termId=MI:0444&amp;termName=database%20citation" target="_blank">PSI-MI controlled vocabulary</a>, and ac is the unique primary identifier of the molecule in the database. Even though the MITAB format can accept several identifiers from multiple databases (separated by &quot;</td>
+<td>&quot;) in the &apos;unique identifier&apos; columns, it is recommended to give only one identifier. It is also recommended that proteins are identified by stable identifiers such as their UniProtKB, RefSeq, Ensembl, ddbj/genbank/embl or Chebi accession number.</td>
+</tr>
+<tr>
+<td style="text-align:left">Alternative Identifier</td>
+<td style="text-align:left">3</td>
+<td style="text-align:left">4</td>
+<td style="text-align:left">represented as databaseName:ac, where databaseName is the name of the corresponding database as defined in the <a href="http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=MI&amp;termId=MI:0444&amp;termName=database%20citation" target="_blank">PSI-MI controlled vocabulary</a>, and ac is the primary identifier of the molecule in the database. Multiple identifiers separated by &quot;</td>
+<td>&quot;. It is recommended that only database identifiers for the interactors are given in these columns. Other cross references for these interactors such as GO xrefs should be moved to columns 23 and 24 and interactor names such as gene names should be moved to columns 5 and 6.</td>
+</tr>
+<tr>
+<td style="text-align:left">Aliases</td>
+<td style="text-align:left">5</td>
+<td style="text-align:left">6</td>
+<td style="text-align:left">represented as databaseName:name, where databaseName is the name of the corresponding database as defined in the <a href="http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=MI&amp;termId=MI:0444&amp;termName=database%20citation" target="_blank">PSI-MI controlled vocabulary</a>, and name is the name of the molecule in the database (Ex gene names, protein recommended name, ORF, locus name, drug name, Chebi recommended name, etc.). Multiple names separated by &quot;</td>
+<td>&quot;.</td>
+</tr>
+<tr>
+<td style="text-align:left">Xrefs</td>
+<td style="text-align:left">23</td>
+<td style="text-align:left">24</td>
+<td style="text-align:left">represented as databaseName:ac, where databaseName is the name of the corresponding database as defined in the <a href="http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=MI&amp;termId=MI:0444&amp;termName=database%20citation" target="_blank">PSI-MI controlled vocabulary</a>, and ac is the primary accession in the database. Multiple accessions separated by &quot;</td>
+<td>&quot;. This columns can contain for instance GO xrefs.</td>
+</tr>
+<tr>
+<td style="text-align:left">NCBI Taxonomy identifier</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left">11</td>
+<td style="text-align:left">Database name for NCBI taxid taken from the <a href="http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=MI&amp;termId=MI:0444&amp;termName=database%20citation" target="_blank">PSI-MI controlled vocabulary</a>, represented as taxid:identifier(organism common name). Even though the MITAB format can accept several taxon ids per column (Multiple identifiers separated by &quot;</td>
+<td>&quot;), it is strongly recommended to have only one organism per protein per MITAB line. Currently no taxonomy identifiers other than NCBI taxid are anticipated, apart from the use of -2 to indicate &quot;chemical synthesis&quot; and -3 indicates &quot;unknown&quot;.</td>
+</tr>
+<tr>
+<td style="text-align:left">checksum</td>
+<td style="text-align:left">33</td>
+<td style="text-align:left">34</td>
+<td style="text-align:left">represented as methodName:value, where methodName is the name of the corresponding checksum method, and value is the checksum for this interactor. Multiple checksums separated by &quot;</td>
+<td>&quot;. This columns can contain for instance rogid, or standard inchi key</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p>It is recommended that the unique identifier and alternative identifier column should be used as follow:</p>
+<ul>
+<li>unique identifier column: Ideally indicate a single reference to a chosen primary sequence database (e.g. one of UniProt or RefSeq). The unique identifier should not be ambiguous. If the interactor can match several RefSeq identifiers are used but only one master UniProt ac, it is recommended to give the master UniProt ac as &apos;unique identifier&apos; and the RefSeq identifiers as &apos;alternative identifiers&apos;.</li>
+<li>alternative identifier column: any other database identifier referring to your interacting molecule. Here are two examples:<ul>
+<li>if you are UniProt centric, you could add mapping to RefSeq,</li>
+<li>if you are a gene centric, you could add mapping to UniProt and/or RefSeq.</li>
+</ul>
+</li>
+</ul>
+<p>The first two columns &apos;unique identifier&apos; should never be both empty columns. If a unique identifier to a sequence database cannot be found, it is important to give at least one identifier from the interaction database that created the interactor entry (Ex : IntAct accession, MINT accessions, etc.). One empty column is allowed in case of intra-molecular interactions (a single molecule interacts with itself). If one &apos;unique identifier&apos; column is empty, it is expected to have empty columns for the matching &apos;alternative identifier&apos;, &apos;alias&apos;, &apos;taxid&apos;, &apos;interactor xref&apos;, &apos;checksum&apos;, &apos;biological role&apos;, &apos;experimental role&apos;, &apos;interactor type&apos;, &apos;feature&apos;, &apos;participant identification method&apos;.</p>
+<p>It is recommended to give gene names, ORF, locus names, gene synonyms, Chebi recommended name, drug name and/or protein recommended names in the alias columns.</p>
+<p>Other cross references which can describe the interactors but ARE NOT identifiers such as GO xrefs could be added in columns 23 and 24.</p>
+<p>In a single MITAB line, the interactors should only be associated with a single taxon id.</p>
+<p>When it is available, a checksum of the interactor can be used in column 33 and 34 such as rogid, crogid and standard inchi key. These checksums could then be used for clustering interactors and taking into account their sequence.</p>
+<p>Here is a recommendation for various molecule types:</p>
+<h4 id="1-complexes">1. Complexes</h4>
+<p>In case of complexes (several protein chains for instance), no reference database can be recommended. The UniprotKB database does not generate unique identifiers for complexes. For now, only identifiers generated by the interaction databases can be used. For clustering purposes, if one interaction database such as IntAct did create an entry for describing a specific complex, the accession of the interaction generated by the database (IntAct) could be used across several different interaction databases to point to the same complex.</p>
+<h4 id="2-proteins">2. Proteins</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Column</strong></th>
+<th style="text-align:left"><strong>Data required</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Unique identifier</td>
+<td style="text-align:left">Use preferentially a single cross references to uniprotkb or RefSeq</td>
+<td style="text-align:left"><code>uniprotkb:P51587</code><br> <code>uniprotkb:P51123-3</code><br> <code>refseq:NP_000059</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Alternative identifier</td>
+<td style="text-align:left">Use <strong>secondary cross references</strong> in primary database, <br> Use model organism databases.</td>
+<td style="text-align:left"><code>uniprotkb:O00183</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Interactor Xrefs</td>
+<td style="text-align:left">Use cross references to databases that can give more information about the protein but cannot be used as identifier. This columns can also contain secondary identifiers that are ambiguous (can be shared by two different proteins for instance, uniprot demerge) and that cannot be used to identify a single protein.</td>
+<td style="text-align:left"><code>go:&quot;GO:0003824&quot;</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Alias</td>
+<td style="text-align:left">use the gene name found in your reference database. &apos;orf name&apos;, &apos;gene name synonym&apos;, &apos;locus names&apos; and &apos;protein recommended name&apos; can also be added</td>
+<td style="text-align:left"><code>uniprotkb:BRCA2(gene name)</code> <br><code>uniprotkb:FACD(gene name synonym)</code></td>
+</tr>
+<tr>
+<td style="text-align:left">NCBI Taxonomy identifier</td>
+<td style="text-align:left">The taxid of the molecule (e.g. taxid:9606) should always be provided. In parenthesis, it is recommended to add the common name/scientific name of the organism.</td>
+<td style="text-align:left"><code>taxid:9606</code><br>`taxid:9606(human)</td>
+<td>taxid:9606(Homo sapiens)`</td>
+</tr>
+<tr>
+<td style="text-align:left">Interactor checksums (columns 33 and 34)</td>
+<td style="text-align:left">Use <strong>rogid</strong> and <strong>crogid</strong></td>
+<td style="text-align:left"><code>rogid:UcdngwpTSS6hG/pvQGgpp40u67I9606</code> <br> <code>crogid:UcdngwpTSS6hG/pvQGgpp40u67I9606</code></td>
+</tr>
+</tbody>
+</table>
+<p>MITAB27 format definition: <a href="http://code.google.com/p/psicquic/wiki/MITAB27Format" target="_blank">http://code.google.com/p/psicquic/wiki/MITAB27Format</a></p>
+<p><strong>What is a ROGID ?</strong></p>
+<p>ROGID (Redundant Object Group Identifier) is a SHA-1 digest of the protein interactor&apos;s primary amino acid sequence concatenated with the NCBI taxonomy identifier. The first 27 character of a ROGID is always the hash value (SEGUID) to which is appended the taxid. Please refer to the <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2573892" target="_blank">iRefIndex paper</a> for more details.</p>
+<p><strong>What is a CROGID ?</strong></p>
+<p>This is similar to ROGID but allows the description of <em>Canonical</em> Redundant Object Group. See below how a canonical sequence should be chosen.</p>
+<h4 id="3-small-molecules">3. Small Molecules</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Column</strong></th>
+<th style="text-align:left"><strong>Data required</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Unique identifier</td>
+<td style="text-align:left">use the <strong>standard inchi key</strong> if not ambiguous, otherwise use a non ambiguous identifier (Chebi recommended). As the standard inchi key is not a database identifier but more a checksum, a unique Chebi identifier would be recommended. The standard inchi key should only be used as identifier for enrichment purposes and it may be moved to the checksum columns after data enrichment. If the standard inchi key is used as an identifier, the database is unknown and we should write standard inchi key in parenthesis</td>
+<td style="text-align:left"><code>unknown:&quot;KTUFNOKKBVMGRW-UHFFFAOYSA-N&quot;(standard inchi key)</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Alternative identifier</td>
+<td style="text-align:left">use cross references to <strong>chebi</strong> or other small molecule database that can identify without ambiguity the small molecule.</td>
+<td style="text-align:left"><code>chebi:&quot;CHEBI:45783&quot;</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Interactor Xrefs</td>
+<td style="text-align:left">Use cross references to databases that can give more information about the small molecule but cannot be used as identifier. This columns can also contain secondary identifiers that are ambiguous (can be shared by two different small molecules for instance) and that cannot be used to identify a single molecule.</td>
+<td style="text-align:left"><code>pubchem:26697112</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Alias</td>
+<td style="text-align:left">add a <strong>standard inchi</strong>, <strong>smile</strong>, <strong>Chebi name</strong>, <strong>drug name</strong></td>
+<td style="text-align:left"><code>unknown:&quot;1S/C29H31N7O/c1-21-5-10-25(18-27(21)34-29-31-13-11-26(33-29)24-4-3-12-30-19-24)32-28(37)23-8-6-22(7-9-23)20-36-16-14-35(2)15-17-36/h3-13,18-19H,14-17,20H2,1-2H3,(H,32,37)(H,31,33,34)&quot;(standard inchi)</code><br><code>chebi:imatinib(chebi name)</code></td>
+</tr>
+<tr>
+<td style="text-align:left">NCBI Taxonomy identifier</td>
+<td style="text-align:left">it should be &apos;-&apos; if undefined, taxid:-3(unknown), taxid:-2(chemical synthesis) or a specific taxid if known</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Interactor checksums (columns 33 and 34)</td>
+<td style="text-align:left">Use <strong>standard inchi key</strong></td>
+<td style="text-align:left"><code>standard inchi key:&quot;KTUFNOKKBVMGRW-UHFFFAOYSA-N&quot;</code></td>
+</tr>
+</tbody>
+</table>
+<p>Should the Standard InCHI Key not describe unambiguously a molecule, the data provider should use an other cross reference and keep the Standard InCHI Key as a checksum only.</p>
+<p><strong>What is a Standard InChI ?</strong></p>
+<p>IUPAC International Chemical Identifier (InChI) - a machine-readable character string describing a chemical structure, developed by IUPAC and the InChI Trust as a standard to allow interoperability and linking between chemical resources.  The standard InChI differs from the non-standard InChI in that it is generated with a fixed set of parameters, ensuring consistency between different resources. The current version of the standard InChI software is 1.03.</p>
+<p><strong>What is a Standard InChI Key ?</strong></p>
+<p>The standard InChI Key is a condensed, 27 character identifier that is a hashed version of the full standard InChI (using the SHA-256 algorithm), designed to allow for easy web searches of chemical compounds.</p>
+<p>The <a href="http://www.inchi-trust.org/?q=node/3" target="_blank">InChI Trust</a> has more information and software support for InChI related matters.</p>
+<h4 id="4-nucleic-acids">4. Nucleic Acids</h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Column</strong></th>
+<th style="text-align:left"><strong>Data required</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Unique identifier</td>
+<td style="text-align:left">use a single cross references to <strong>embl/genebank/ddbj</strong></td>
+<td style="text-align:left"><code>ddbj/embl/genbank:U41813</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Alternative identifier</td>
+<td style="text-align:left">use other cross references to other nucleotide sequence databases such as Refseq nucleotides</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Alias</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Interactor Xrefs</td>
+<td style="text-align:left"></td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">NCBI Taxonomy identifier</td>
+<td style="text-align:left">The taxid of the molecule (e.g. taxid:9606) should be provided when available. In parenthesis, it is recommended to add the common name/scientific name of the organism. It should be &apos;-&apos; if undefined, taxid:-3(unknown) or taxid:-2(chemical synthesis) otherwise.</td>
+</tr>
+<tr>
+<td style="text-align:left">Interactor checksums (columns 33 and 34)</td>
+<td style="text-align:left"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="5-gene">5. Gene</h4>
+<p>This case is differentiated from &apos;Nucleic Acid&apos; as not all nucleic acid sequence result in genes. Furthermore genes can be references to with set of public databases that differs from other Nucleic Acid based molecules.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Column</strong></th>
+<th style="text-align:left"><strong>Data required</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Unique identifier</td>
+<td style="text-align:left">use <strong>a unique</strong> cross references to <strong>entrez gene/locuslink</strong>, <strong>ensembl</strong>, or <strong>ensemblGenome</strong></td>
+<td style="text-align:left"><code>entrez gene/locuslink:84665</code><br><code>ensembl:X63509</code><br><code>ensemblgenomes:AT1G66140</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Alternative identifier</td>
+<td style="text-align:left">use cross references to <strong>entrez gene/locuslink</strong>, <strong>ensembl</strong> and <strong>ensemblGenome</strong> that could not be used in &apos;unique identifier&apos; columns.</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Interactor Xrefs</td>
+<td style="text-align:left">use other cross references to other databases that can add more information about the gene but cannot be used as identifier</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">Alias</td>
+<td style="text-align:left">use gene names, ORF, locus names and/or gene synonyms</td>
+<td style="text-align:left"></td>
+</tr>
+<tr>
+<td style="text-align:left">NCBI Taxonomy identifier</td>
+<td style="text-align:left">The taxid of the molecule (e.g. taxid:9606) should always be provided. In parenthesis, the common name and/or scientific name should be given</td>
+<td style="text-align:left"><code>taxid:9606(Homo sapiens)</code><br><code>taxid:9606(human)</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="b-describing-the-publication">B. Describing the publication</h3>
+<p>Currently, the publication can be described using up to 2 columns in MITAB. The publication information should be provided because can be used for PSICQUIC queries, clustering, scoring and linking to the original publication.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Column</strong></th>
+<th style="text-align:left"><strong>Data required</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">identifier of the publication (col 8)</td>
+<td style="text-align:left">use <strong>a unique</strong> cross references to pubmed or doi. If an IMEx id has been assigned to the publication, it should be added as well. If no pubmed id or DOI number can be used, another publication identifier could be used</td>
+<td style="text-align:left"><code>pubmed:10655498</code><br>`pubmed:16980971</td>
+<td>imex:IM-1`</td>
+</tr>
+<tr>
+<td style="text-align:left">First Author</td>
+<td style="text-align:left">use the first author surname in the publication and the publication date in parenthesis</td>
+<td style="text-align:left">Ciferri et al.(2005)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="c-describing-the-organism">C. Describing the organism</h3>
+<p>In MITAB 2.7, three columns can describe organisms.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Column</strong></th>
+<th style="text-align:left"><strong>Data required</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">NCBI Taxonomy identifier for interactor A (col 10 and 11)</td>
+<td style="text-align:left">use <strong>a unique</strong> taxId and in parenthesis gives the common name and/or scientific name. This information should always be provided for genes and proteins. For nucleic acids and small molecules, the column can be empty if the information is not relevant, -2 to indicate &quot;chemical synthesis&quot; and -3 to indicate &quot;unknown&quot;</td>
+<td style="text-align:left"><code>taxid:9606(human)</code><br>`taxid:9606(human)</td>
+<td>taxid:9606(Homo sapiens)`</td>
+</tr>
+<tr>
+<td style="text-align:left">NCBI Taxonomy identifier for the host organism</td>
+<td style="text-align:left">use the taxId of the host organism only. -3 for unknown, -2 for chemical synthesis, -4 for in vivo and -5 for in sillico are allowed. In parenthesis, give the common name and/or scientific name of the organism. Cell types and tissues cannot be represented in this column. This information is recommended for MIMIx</td>
+<td style="text-align:left"><code>taxid:9606(human)</code><br>`taxid:9606(human)</td>
+<td>taxid:9606(Homo sapiens)`</td>
+</tr>
+</tbody>
+</table>
+<h3 id="d-describing-controlled-vocabularies">D. Describing controlled vocabularies</h3>
+<p>In MITAB 2.7, 12 columns are controlled vocabulary columns :</p>
+<ul>
+<li>MIMIx : interaction detection method (col 7), biological roles (col 17 and 18), experimental roles (col 19 and 20) and participant identification methods (col 41 and 42).</li>
+<li>Complex expansion should always be provided in column 16 when the binary interaction has been expanded and was originally part of a n-ary interaction</li>
+<li>IMEx : interaction type which can be used for scoring (col 12), interactor types which can be used to filter interactions (col 21 and 22)</li>
+<li>source databases should always be provided in column 13</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Column</strong></th>
+<th style="text-align:left"><strong>Data format</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">columns 7, 12, 16, 17, 18, 19, 20, 21, 22, 41 and 42,</td>
+<td style="text-align:left">use <strong>a unique</strong> cross references to the PSI-MI ontology. In parenthesis, it should be the name of the MI term in the ontology</td>
+<td style="text-align:left"><code>psi-mi:&quot;MI:0914&quot;(association)</code></td>
+</tr>
+<tr>
+<td style="text-align:left">column 13</td>
+<td style="text-align:left">use one to several cross references to the PSI-MI ontology depending on the interaction which can be imported from other databases.</td>
+<td style="text-align:left">psi-mi:&quot;MI:0469&quot;(intact)</td>
+<td>psi-mi:&quot;MI:0923&quot;(irefindex)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="e-describing-interaction-and-complex-expansion">E. Describing interaction and complex expansion</h3>
+<p>In MITAB 2.6 and MITAB 2.7, it is possible to tag n-ary interactions which have been expanded. When a binary intercation is expanded, the method to expand the complex should always be provided in column 16 for filtering and clustering purposes.</p>
+<p>However, this information is not enough to be able to re-build a complex from MITAB. The interaction AC column could be used to retrieve all the binary pairs composing the complex if the interaction AC is unique per interaction (true binary and n-ary interactions). If possible, the column 14 (Interaction identifiers) should always give an identifier for this purpose (could be the database accession of the interaction or an automatically generated identifier). This only concerns data providers which expand n-ary interactions. In case of true binary interactions, the column 14 is only used for linking to the proper database entry.</p>
+<p><em>Ex :</em><br> psi-mi:&quot;MI:1060&quot;(spoke expansion)
+<br> psi-mi:&quot;MI:1061&quot;(matrix expansion)
+<br> psi-mi:&quot;MI:1062&quot;(bipartite expansion)</p>
+<p>Negative interactions can be represented in MITAB 2.6 and MITAB 2.6 but the negative column (column 36) should always be &apos;true&apos;. The column can be left empty for positive interactions or should be &apos;false&apos;.</p>
+<p>Supplementary information could be given in column 25 (Interaction xrefs) such as GO xrefs.</p>
+<h3 id="f-describing-annotations">F. Describing annotations</h3>
+<p>In MITAB 2.6 and 2.7, it is possible to give annotations for interactors (col 26 and 27) and interaction which can be used for tagging (col 28). The topic of the interaction should always be provided (could be any participant attribute name in PSI-MI ontology for columns 26 and 27 and any interaction attribute name or curation content/curation quality tags in the PSI-MI ontology for column 28). The text is optional and if provided must be properly escaped (breakline, tabs, MITAB reserved characters).</p>
+<p>The section K gives more information about how to tag interactions.</p>
+<h3 id="g-describing-interaction-parameters">G. Describing interaction parameters</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Column</strong></th>
+<th style="text-align:left"><strong>Data format</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Paramaters of the interaction (col 30)</td>
+<td style="text-align:left">represented as type:value(text) where type is a parameter type name from the PSI-MI ontology. Multiple values can be separated by &apos;</td>
+<td style="text-align:left">&apos;. Special characters should not be allowed in MITAB so to represent exponents, fractions or the real values could be used.</td>
+<td>kd:&quot;2.34x1/100000</td>
+</tr>
+</tbody>
+</table>
+<h3 id="h-describing-stoichiometry-and-self-interactions">H. Describing stoichiometry and self interactions</h3>
+<p>In MITAB 2.7, 2 columns can be used to specify the stoichiometry of the participants (columns 39 and 40). If no stoichiometry information are available, these columns should stay empty (-).
+<br></p>
+<p>Three different cases need to be specified :</p>
+<ul>
+<li>intra-molecular/auto-catalysis : only one interactor is given and the columns for the second interactor should all be empty (with a &apos;-&apos;). The stoichiometry of the interactor should be 1.</li>
+<li>homodimers, trimers, etc. : two interactors are given (identifiers of interactor A are the same as identifiers for Interactor B). One of the stoichiometry column should be 0 and the other stoichiometry column should be a positive numeric value. <em>Ex: for homodimers, stoichiometry is 2</em></li>
+<li>homo oligomers : two interactors are given (identifiers of interactor A are the same as identifiers for Interactor B). Both stoichiometry columns should be 0.</li>
+</ul>
+<h3 id="i-describing-features">I. Describing features</h3>
+<p>Features of participant A and B can be added in columns 37 and 39 of MITAB 2.7.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Column</strong></th>
+<th style="text-align:left"><strong>Data format</strong></th>
+<th style="text-align:left"><strong>Example(s)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Features for interactor A and B</td>
+<td style="text-align:left">describe features or participant A such as binding sites, PTMs, tags, etc. Represented as feature_type:range(text), where feature_type is the feature type as described in the PSI-MI controlled vocabulary. For the PTMs, the MI ontology terms are obsolete and the PSI-MOD ontology should be used instead. The text can be used for feature type names, feature names, interpro cross references, etc. The use of the following characters is allowed to describe a range position : &#x2018;?&#x2019; (undetermined position), &#x2018;n&#x2019; (n terminal range), &#x2018;c&#x2019; (c-terminal range), &#x2018;&gt;x&#x2019; (greater than x), &#x2018;&lt;&#x2019; (less than x), &#x2018;x1..x1&#x2019; (fuzzy range position Ex : 5..5-9..10). The character &apos;-&apos; is used to separate start position(s) from end position(s). Multiple features separated by &apos;</td>
+<td style="text-align:left">&apos;. Multiple ranges per feature separated by &apos;,&apos;. However, It is not possible to represent linked features/ranges</td>
+<td>sufficient to bind:27-195,201-133 (IPR000785) <br> gst tag:n-n(n-terminal region)</td>
+<td>sufficient to bind:23-45 <br> binding site:23..24-46,33-33</td>
+</tr>
+</tbody>
+</table>
+<h3 id="j-interaction-confidence-nomenclature">J. Interaction confidence nomenclature</h3>
+<p>A scoring nomenclature has been discussed during the PSI meeting 2012 and no final decision has been reached yet.</p>
+<p>The current proposal is :
+<br></p>
+<p><em>{service}-{score method}-{profile}</em></p>
+<ul>
+<li>service = Service or database which performed the score</li>
+<li>score method = Name of the score method use to score interactions (CV term)</li>
+<li>profile = Name used to define a specific way to calculate the score. This could include specific parameters or configuration for a scoring method.
+&quot;service&quot;, &quot;score method&quot; and &quot;profile&quot; would be optional, but at least one of them should be present.</li>
+</ul>
+<p><br>
+<em>e.g.     intact-miscore-default: 0.36    {service}-{score method}-{profile}
+miscore-default:0.36         {score method}-{profile}
+         miscore-imex:0.20         {score method}-{profile}
+ miscore-psicquic:0.60         {score method}-{profile}</em></p>
+<p>This level of detail is important as the score will differ not only with method, but also with the dataset over which the score is run and the parameters set.</p>
+<h3 id="k-interaction-evidence-clustering">K. Interaction Evidence Clustering</h3>
+<p><strong>What is clustering ?</strong></p>
+<p>Storing in a single MITAB line the content of multiple interaction evidence. The format is (to an extent) capable of representing this data by concatenating information in the respective columns. Interaction clustering is an commonly requested operation on molecular interactions query results. This allows for instance to identify a non redundant set of interacting molecule pairs.</p>
+<h4 id="should-you-be-serving-clustered-data-">Should You Be Serving Clustered Data ?</h4>
+<p>Clustering can be performed by a data provider and the clustered data be served by PSICQUIC. However, this practice is not optimal as far as user queries are concerned. For instance. if a service is serving a clustered interaction that aggregates evidences detected by &apos;yeast two hybrid&apos; and &apos;pull down&apos; and the user searches for <code>NOT &quot;yeast two hybrid&quot;</code>, the clustered line containing pull down would not be returned. The same problem can be reported for a service that is clustering two interactors from two different organisms but with the same sequence in the same column.</p>
+<h4 id="clustering-algorithms">Clustering Algorithms</h4>
+<p>Typically, clustering is performed by matching interacting molecule pairs using a predefined set of database cross references and aliases. For instance it could be performed by matching molecules based on !UniProtKB, RefSeq, rogid, chebi, standard inchi key. Hence, if the recommendation on how to describe an interacting molecule was followed, interaction evidence clustering should work efficiently.</p>
+<h4 id="how-to-present-clustered-data-in-mitab">How To Present Clustered Data in MITAB</h4>
+<p>Clustering is currently only run over the single line representation of data in the MITAB format, where multiples pieces of information are separated by &#x2018;|&#x2019;. As these pieces of information often do not have a 1:1 relationship, for example one interaction method may be related to multiple interaction types, relationships between information will inevitably be lost. There was some discussion and to whether it was worth retaining these relationships by duplicating information but it was generally agreed that the records would then be less human-readable (which is the main reason for producing MITAB in the first place), and that MITAB should only contain the summary of the cluster and in a long term solution, XML could be used for keeping the relationships.</p>
+<p><br></p>
+<h3 id="l-interaction-evidence-tagging">L. Interaction Evidence Tagging</h3>
+<p>Currently, PSICQUIC tagging is done by the PSICQUIC Registry. Tagging the PSICQUIC service in the registry is important because it gives information about the content of each PSICQUIC registry and can help to focus queries on specific services depending on what the user is looking for (mainly for optimisation). However, this tagging approach presents the obvious limitation that a service, which provides mixed datasets matching different tags, can only be in or out, as opposed to filtering the data it hosts. We will describe in this section some recommendation to implement tagging at the interaction evidence level.</p>
+<p><strong>What tags are currently available ?</strong></p>
+<p>The tags are fully integrated in the PSI-MI Ontology and they can be found <a href="http://code.google.com/p/psicquic/wiki/PsicquicServiceTags" target="_blank">here</a>.</p>
+<p><strong>Tags useful at the interaction level</strong>
+<br></p>
+<ul>
+<li>mimix curation or rapid curation are useful. It is easy to detect interactions having imex-curation because they have an IMEx identifier in the interaction Acs column.</li>
+<li>complex expansion tags will be used in a specific &apos;Complex expansion&apos; column in MITAB 2.7</li>
+<li>some data source tags are useful at the level of interaction such as &apos;imported&apos;, &apos;internally curated&apos;. The tags &apos;predicted&apos;, &apos;experimentally-observed&apos; and &apos;text-mining&apos; could be deduced from the interaction detection method so can already been filtered without tagging. Depending on the data provider, it is not necessary to tag at the level of the interaction for the data-source because only contain one specific data source.</li>
+<li>the interacting molecule tags such as protein-protein, nucleicacid-protein or smallmolecule-protein are not really necessary in MITAB 2.7 and MITAB 2.6 because of the Interactor type(s) columns. As an interactor type can be any children of protein. nucleic acid and small molecule, being able to tag the interaction could avoid going back to the ontology to recognize proteins from nucleic acids and small molecules. However, with the interactor type information, we could have more filtering options (peptide-protein, gene-gene, etc.) without the need of new controlled vocabulary terms.</li>
+<li>the interaction representation tags (clustered or evidence) are not really important at the interaction level because all the data providers are now providing evidence based interactions and not clustered interactions.</li>
+<li>the curation coverage (full-curation or partial-curation) are tags that are interesting to add at the interaction level.</li>
+</ul>
+<p><strong>How to encode Tags ?</strong></p>
+<p>In <strong>MITAB2.7</strong> onward it will be stored in column 28 (Interaction Annotation). The syntax for annotation columns in MITAB 2.7 is topic:text where topic is the annotation topic and text is free text. In the case of tags, only the topic will be given as described in the corresponding PSI-MI Ontology, example: <code>evidence</code> for the term &apos;evidence&apos; (MI:1051).</p>
+<p>In the <strong>PSI-MI XML 2.5</strong> format, these tags will be stored under the interaction&apos;s attribute, example: <code>&lt;attribute name=&quot;evidence&quot; nameAc=&quot;MI:1051&quot; /&gt;</code></p>
+<p><br></p>
+<h3 id="m-molecule-naming-for-network-visualisation">M. Molecule Naming for Network Visualisation</h3>
+<p>In the context of network visualisation, where molecules are typically nodes and interaction edges. Nodes are usually labelled with the name of the molecule is represents. It would be helpful if data providers could indicate a chosen name for their interacting molecule. This could be enabled easily by simply adding an additional alias formatted as follow: <code>psi-mi:label(display_short)</code>, where label is the chosen name for the molecule.</p>
+<p>This topic has been discussed at the PSI-MI Spring meeting 2011 (Heidelberg) and 2012 (San Diego) and here is the consensus we have reached.</p>
+<p>The group felt there was a need for two display names to be defined in order to reflect a <strong>overview</strong> (TODO: add MI CV for display short) and <strong>detailed</strong> (TODO: add MI CV for dislay long) naming of molecules. Examples of use will be given for specific molecule types below.</p>
+<p>This information should be added by PSICQUIC data providers (and more generally MITAB producers) and stored under the respective aliases columns of molecule A and B (respectively 5 &amp; 6). If not present, the Data Enricher could add this information. It has been agreed that it should be encoded as a <code>psi-mi</code> reference as this is the group that rubber stamped this specification.</p>
+<blockquote>
+<p>Examples:</p>
+<pre><code>* `psi-mi:LSM7(display_short)`
+* `psi-mi:P12345-1_HUMAN(display_long)`
+</code></pre></blockquote>
+<p>The recommendation is molecule type centric, the order column indicates the picking order depending on availability.</p>
+<p><strong>Proteins</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Order</th>
+<th style="text-align:left">Value</th>
+<th style="text-align:left">Level</th>
+<th style="text-align:left">Example(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left">Gene Symbol (gene name or gene synonym)</td>
+<td style="text-align:left">Overview</td>
+<td style="text-align:left"><code>psi-mi:LSM7(display_short)</code></td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left">First sequence database identifier/accession</td>
+<td style="text-align:left">Detailed &amp; Overview</td>
+<td style="text-align:left"><code>psi-mi:P53905(display_long)</code></td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left">First available identifier</td>
+<td style="text-align:left">Detailed &amp; Overview</td>
+<td style="text-align:left"><code>psi-mi:EBI-1234(display_long)</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Small Molecules</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Order</th>
+<th style="text-align:left">Value</th>
+<th style="text-align:left">Level</th>
+<th style="text-align:left">Example(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left">ChEBI recommended name or drug name</td>
+<td style="text-align:left">Overview</td>
+<td style="text-align:left"><code>psi-mi:imatinib(display_short)</code></td>
+</tr>
+<tr>
+<td style="text-align:left">3</td>
+<td style="text-align:left">First available identifier</td>
+<td style="text-align:left">Detailed &amp; Overview</td>
+<td style="text-align:left"><code>psi-mi:CHEMBL340969(display_long)</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Nucleic Acids</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Order</th>
+<th style="text-align:left">Value</th>
+<th style="text-align:left">Level</th>
+<th style="text-align:left">Example(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left">First available identifier</td>
+<td style="text-align:left">Overview and/or Detailed</td>
+<td style="text-align:left"><code>psi-mi:AF026397(display_long)</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Genes</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Order</th>
+<th style="text-align:left">Value</th>
+<th style="text-align:left">Level</th>
+<th style="text-align:left">Example(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1</td>
+<td style="text-align:left">Gene symbol( gene name or synonyms ) ending with &apos;<em>gene&apos;</em></td>
+<td style="text-align:left">Overview and/or Detailed</td>
+<td style="text-align:left"><code>psi-mi:LSM7_gene(display_short)</code></td>
+</tr>
+<tr>
+<td style="text-align:left">2</td>
+<td style="text-align:left">First identifier</td>
+<td style="text-align:left">Overview and/or Detailed</td>
+</tr>
+</tbody>
+</table>
+<p>It was agreed that in order to differentiate proteins (primarily described by gene symbol) from genes in a network display, we will append to the gene symbol the molecule type.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="HowToInstall.html" class="navigation navigation-prev " aria-label="Previous page: Using LUCENE">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="DataEnricher.html" class="navigation navigation-next " aria-label="Next page: Data Enricher">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Data Distribution Best Practices","level":"2.1.3","depth":2,"next":{"title":"Data Enricher","level":"2.1.4","depth":2,"path":"DataEnricher.md","ref":"DataEnricher.md","articles":[]},"previous":{"title":"Using LUCENE","level":"2.1.2.1","depth":3,"path":"HowToInstall.md","ref":"HowToInstall.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"3.1.1","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"DataDistributionBestPractices.md","mtime":"2016-08-02T15:21:30.000Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-08-15T17:09:41.315Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

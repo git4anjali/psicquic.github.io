@@ -1,0 +1,907 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Single jetty server · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.1.1">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="HowToInstallPsicquicSolrDifferentServers.html" />
+    
+    
+    <link rel="prev" href="HowToInstallPsicquicSolr.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="PsicquicSpecification.html">
+            
+                <a href="PsicquicSpecification.html">
+            
+                    
+                    Specification
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.1" data-path="PsicquicSpec_1_3_Soap.html">
+            
+                <a href="PsicquicSpec_1_3_Soap.html">
+            
+                    
+                    SOAP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.2" data-path="PsicquicSpec_1_3_Rest.html">
+            
+                <a href="PsicquicSpec_1_3_Rest.html">
+            
+                    
+                    REST
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="Registry.html">
+            
+                <a href="Registry.html">
+            
+                    
+                    Registry
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.2.1" data-path="PsicquicServiceTags.html">
+            
+                <a href="PsicquicServiceTags.html">
+            
+                    
+                    Registry Service Tags
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2.2" data-path="RegistryJavaClient.html">
+            
+                <a href="RegistryJavaClient.html">
+            
+                    
+                    Java client
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="MiqlDefinition.html">
+            
+                <a href="MiqlDefinition.html">
+            
+                    
+                    Usage MIQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="MiqlReference.html">
+            
+                <a href="MiqlReference.html">
+            
+                    
+                    MIQL Reference 2.5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="MiqlReference27.html">
+            
+                <a href="MiqlReference27.html">
+            
+                    
+                    MIQL Extension 2.7
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="Clients.html">
+            
+                <a href="Clients.html">
+            
+                    
+                    Clients
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" >
+            
+                <a target="_blank" href="http://www.bioconductor.org/packages/release/bioc/html/PSICQUIC.html">
+            
+                    
+                    R Bioconductor package
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="JavaClient.html">
+            
+                <a href="JavaClient.html">
+            
+                    
+                    Java
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="PerlCodeSamples.html">
+            
+                <a href="PerlCodeSamples.html">
+            
+                    
+                    Perl
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="PythonCodeSamples.html">
+            
+                <a href="PythonCodeSamples.html">
+            
+                    
+                    Python
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="CytoscapeClient.html">
+            
+                <a href="CytoscapeClient.html">
+            
+                    
+                    Cytoscape
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="formats.html">
+            
+                <a href="formats.html">
+            
+                    
+                    Formats
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="psi-mitab.html">
+            
+                <a href="psi-mitab.html">
+            
+                    
+                    PSI MITAB
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1.1" data-path="MITAB25Format.html">
+            
+                <a href="MITAB25Format.html">
+            
+                    
+                    MITAB 2.5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.2" data-path="MITAB26Format.html">
+            
+                <a href="MITAB26Format.html">
+            
+                    
+                    MITAB 2.6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.1.3" data-path="MITAB27Format.html">
+            
+                <a href="MITAB27Format.html">
+            
+                    
+                    MITAB 2.7
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="psi-mi-xml.html">
+            
+                <a href="psi-mi-xml.html">
+            
+                    
+                    PSI-MI XML
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.2.1" >
+            
+                <a target="_blank" href="http://psidev.sourceforge.net/molecular_interactions/rel25/doc/">
+            
+                    
+                    Schema documentation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.2" >
+            
+                <a target="_blank" href="http://psidev.cvs.sourceforge.net/viewvc/psidev/psi/mi/rel25/src/MIF254.xsd">
+            
+                    
+                    MIF254.xsd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.3" >
+            
+                <a target="_blank" href="http://code.google.com/p/psimi/wiki/PsimiXMLSpecifications">
+            
+                    
+                    XML Specifications
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2.4" >
+            
+                <a target="_blank" href="http://code.google.com/p/psimi/wiki/PsimiExamples">
+            
+                    
+                    Java Examples
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="service-providers.html">
+            
+                <a href="service-providers.html">
+            
+                    
+                    Service providers
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="HowToInstallPsicquicSolr.html">
+            
+                <a href="HowToInstallPsicquicSolr.html">
+            
+                    
+                    How to install PSICQUIC Solr (recommened)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1.1.1" data-path="HowToInstallPsicquicAndSolrJetty.html">
+            
+                <a href="HowToInstallPsicquicAndSolrJetty.html">
+            
+                    
+                    Single jetty server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.2" data-path="HowToInstallPsicquicSolrDifferentServers.html">
+            
+                <a href="HowToInstallPsicquicSolrDifferentServers.html">
+            
+                    
+                    Using a solr server independent from the PSICQUIC server
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="HowToInstallPsicquicLucene.html">
+            
+                <a href="HowToInstallPsicquicLucene.html">
+            
+                    
+                    How to install PSICQUIC using LUCENE
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.2.1" data-path="HowToInstall.html">
+            
+                <a href="HowToInstall.html">
+            
+                    
+                    Using LUCENE
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="DataDistributionBestPractices.html">
+            
+                <a href="DataDistributionBestPractices.html">
+            
+                    
+                    Data Distribution Best Practices
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="DataEnricher.html">
+            
+                <a href="DataEnricher.html">
+            
+                    
+                    Data Enricher
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="Faq.html">
+            
+                <a href="Faq.html">
+            
+                    
+                    FAQ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="ReleaseNotes.html">
+            
+                <a href="ReleaseNotes.html">
+            
+                    
+                    Release notes
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="WhoUsesPsicquic.html">
+            
+                <a href="WhoUsesPsicquic.html">
+            
+                    
+                    Who uses PSICQUIC?
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="project-management.html">
+            
+                <a href="project-management.html">
+            
+                    
+                    Project Management
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="PreparingARelease.html">
+            
+                <a href="PreparingARelease.html">
+            
+                    
+                    How to release the project
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Single jetty server</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="installation">Installation</h1>
+<p>This instructions are aimed to those who want to have its local instance of the PSICQUIC web service based on SOLR.</p>
+<h1 id="requirements">Requirements</h1>
+<ul>
+<li>JAVA (<a href="http://java.sun.com/javase/downloads/index.jsp" target="_blank">JDK 6</a>)</li>
+<li><a href="http://maven.apache.org" target="_blank">Maven 2 or 3 (3 is recommended)</a></li>
+</ul>
+<h1 id="obtaining-the-reference-implementation-source-code">Obtaining the Reference Implementation source code</h1>
+<p>There are two ways to obtain the source code:</p>
+<ul>
+<li><p>From the download section, downloading psicquic-solr-ws-1.3.13.zip <a href="https://github.com/PSICQUIC/psicquic-solr-ws/releases/tag/psicquic-solr-ws-1.3.13" target="_blank">https://github.com/PSICQUIC/psicquic-solr-ws/releases/tag/psicquic-solr-ws-1.3.13</a></p>
+</li>
+<li><p>Using a git client, clone the code</p>
+<p><code>git clone --branch psicquic-solr-ws-1.3.13 https://github.com/PSICQUIC/psicquic-solr-ws.git psicquic-solr-ws-1.3.13</code></p>
+</li>
+</ul>
+<h1 id="creating-a-solr-working-directory">Creating a solr working directory</h1>
+<p>This solr working directory will contain solr-home, the MITAB index and solr war file. The content of solr working directory does not need to be there, it will be created automatically by the indexing script. If a solr-home, MITAB index or solr.war file already exists in the working directory, only the MITAB index will be overwritten by the MITAB indexing script.</p>
+<h1 id="building-the-index">Building the index</h1>
+<p>The Reference Implementation uses SOLR (based on LUCENE) to index the data. This index can be generated in many ways but for your convenience, a class to create it from a PSIMITAB file (versions 2.5, 2.6 and 2.7 are supported) is included as part of the web service. The PSIMITAB formats are described in <a href="MITAB25Format.html">MITAB25Format</a>, <a href="MITAB26Format.html">MITAB26Format</a>, <a href="MITAB27Format.html">MITAB27Format</a> and we recommend data providers to read the <a href="DataDistributionBestPractices.html">Data Distribution Best Practices</a> as well as the <a href="Faq.html">PSICQUIC FAQ</a> before starting to generate a PSIMITAB dataset.</p>
+<h2 id="creating-an-index">Creating an index</h2>
+<p>When the indexing job starts, it creates a file <em>target/mitabIndexJob_currentTimeMillis_which contains the job ID of the indexing process. This job ID will be necessary if you want to restart the indexing process from where it failed in case of a badly formatted MITAB line for instance.</em></p>
+<ul>
+<li><p>You can run this bash script :</p>
+<pre><code>cd psicquic-solr-ws
+bash indexMitab.sh /path/to/mitab-file /path/to/solr-workingdir
+</code></pre><p>where</p>
+<ul>
+<li><strong>/path/to/mitab-file</strong> is the path to the MITAB file to index. This argument is mandatory.</li>
+<li><strong>/path/to/solr-workingdir</strong> is the path to the solr working directory. If this argument is not provided, the script will consider the current working directory as the solr working directory.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>The indexing can be executed using the Maven command (used by the bash script) :</p>
+<pre><code>cd psicquic-solr-ws
+mvn clean install -PcreateIndex -DmitabFile=/path/to/mitab-file -Dsolr.workdir=/path/to/solr-workingdir -Dmaven.test.skip
+</code></pre><p>where</p>
+<ul>
+<li><strong>/path/to/solr-workingdir</strong> is the path to the solr working directory. If this argument is not provided, the script will consider the current working directory as the solr working directory.</li>
+<li><strong>/path/to/mitab-file</strong> is the path to the MITAB file to index. This argument is mandatory.</li>
+</ul>
+</li>
+</ul>
+<h2 id="restarting-the-indexing-process-where-it-failed-in-case-it-failed">Restarting the indexing process where it failed (in case it failed)</h2>
+<p>It can happen that the indexing process fails (bad formatted MITAB line for instance, solr server down, etc.). In this case you may want to restart the indexing process from where it failed (after fixing the badly formatted line for instance). Look at the job ID in the file target/mitabIndexJob_currentTimeMillis and then you have two ways of restarting the indexing :_</p>
+<ul>
+<li><p>You can run this bash script :</p>
+<pre><code>cd psicquic-solr-ws
+bash restartIndexMitab.sh /path/to/mitab-file job-ID /path/to/solr-workingdir
+</code></pre><p>where</p>
+<ul>
+<li><strong>/path/to/mitab-file</strong> is the path to the MITAB file to index. This argument is mandatory.</li>
+<li><strong>job-ID</strong> is the job ID in the file target/mitabIndexJob_currentTimeMillis generated by the indexing script that failed. This argument is mandatory_</li>
+<li><strong>/path/to/solr-workingdir</strong> is the path to the solr working directory. If this argument is not provided, the script will consider the current working directory as the solr working directory.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>The script can be executed using the Maven command (used by the bash script) :</p>
+<pre><code>cd psicquic-solr-ws
+mvn install -PrestartIndex -DmitabFile=/path/to/mitab-file -Dsolr.workdir=/path/to/solr-workingdir -Dindexing.id=job-ID -Dmaven.test.skip
+</code></pre><p>where</p>
+<ul>
+<li><strong>/path/to/mitab-file</strong> is the path to the MITAB file to index. This argument is mandatory.</li>
+<li><strong>job-ID</strong> is the job ID in the file target/mitabIndexJob_currentTimeMillis generated by the indexing script that failed. This argument is mandatory_</li>
+<li><strong>/path/to/solr-workingdir</strong> is the path to the solr working directory. If this argument is not provided, the script will consider the current working directory as the solr working directory.</li>
+</ul>
+</li>
+</ul>
+<h1 id="starting-solr-and-the-psicquic-service-locally-using-jetty">Starting solr and the PSICQUIC service locally, using Jetty</h1>
+<p>The solr server will start with the PSICQUIC service using the same jetty server.</p>
+<ul>
+<li><p>You can run this bash script :</p>
+<pre><code>cd psicquic-solr-ws
+bash startPsicquicServerAndSolr.sh /path/to/solr-workingdir
+</code></pre><p>where</p>
+<ul>
+<li><strong>/path/to/solr-workingdir</strong> is the path to the solr working directory (same as for indexing MITAB). If this argument is not provided, the script will consider the current working directory as the solr working directory.</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>The PSICQUIC service and solr can be started using the Maven command (used by the bash script) :</p>
+<pre><code>cd psicquic-solr-ws
+mvn clean -Pstart-jetty-solr jetty:run -Dmaven.test.skip -Dsolr.workdir=/path/to/solr-workingdir
+</code></pre><p>where</p>
+<ul>
+<li><strong>/path/to/solr-workingdir</strong> is the path to the solr working directory. If this argument is not provided, the script will consider the current working directory as the solr working directory.</li>
+</ul>
+</li>
+</ul>
+<p>From PSICQUIC Spec 1.1 it is possible to define and expose <strong>properties</strong> about the service. You can set which properties your service is going to show by passing the <code>psicquic.properties</code> variable. Properties are defined using <code>key=value</code> pairs, comma-separated and all the expression is quoted.</p>
+<pre><code>mvn clean install -Pstart-jetty-solr -Dmaven.test.skip -D psicquic.properties=&quot;owner=John Smith, contactinfo=My Address&quot;
+</code></pre><p>If you decide to use maven command, other parameters can be configured :</p>
+<ul>
+<li>-Djetty.port=9090</li>
+<li>-Dsolr.host=127.0.0.1 to set up the virtual host for the solr admin interface (by default private only)</li>
+<li>-Dpsicquic.properties=properties-file-name</li>
+<li>-Dpsicquic.filter=filter-query (define some filters for your service)</li>
+<li>-Dservice.name=name (the name of the service such as intact, mint, ... which will be used to create the war file). If no service name is provided, the default name is &apos;default&apos;</li>
+<li>-Dlog.file.name=filename (define a log file where you want to log all the queries that have been sent to your service)</li>
+</ul>
+<p>Here is a sample query listing a limited number of available interactions in  your local service:</p>
+<pre><code>http://localhost:9090/psicquic/webservices/current/search/query/*?firstResult=0&amp;maxResults=10
+</code></pre>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="HowToInstallPsicquicSolr.html" class="navigation navigation-prev " aria-label="Previous page: How to install PSICQUIC Solr (recommened)">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="HowToInstallPsicquicSolrDifferentServers.html" class="navigation navigation-next " aria-label="Next page: Using a solr server independent from the PSICQUIC server">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Single jetty server","level":"2.1.1.1","depth":3,"next":{"title":"Using a solr server independent from the PSICQUIC server","level":"2.1.1.2","depth":3,"path":"HowToInstallPsicquicSolrDifferentServers.md","ref":"HowToInstallPsicquicSolrDifferentServers.md","articles":[]},"previous":{"title":"How to install PSICQUIC Solr (recommened)","level":"2.1.1","depth":2,"path":"HowToInstallPsicquicSolr.md","ref":"HowToInstallPsicquicSolr.md","articles":[{"title":"Single jetty server","level":"2.1.1.1","depth":3,"path":"HowToInstallPsicquicAndSolrJetty.md","ref":"HowToInstallPsicquicAndSolrJetty.md","articles":[]},{"title":"Using a solr server independent from the PSICQUIC server","level":"2.1.1.2","depth":3,"path":"HowToInstallPsicquicSolrDifferentServers.md","ref":"HowToInstallPsicquicSolrDifferentServers.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"3.1.1","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"HowToInstallPsicquicAndSolrJetty.md","mtime":"2016-08-15T17:06:35.000Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-08-15T17:09:41.315Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
